@@ -1,0 +1,121 @@
+
+
+.caja{
+ 
+	background: #adceef;
+	border:2px solid #000066;
+	margin: auto;
+	padding: 15px;
+	width: 40%;
+	height: 460px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+.cajita{
+	width: 90%;
+	height: 150px;
+	border: 2px solid #9c0076;
+	background:	#ff60d8;
+	padding: 15px;
+	margin: 8px;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+
+.rojo{
+	height: 30px;
+	flex-basis: 75px;
+	border: 2px solid #a9000c;
+	background: #cf000f;
+	display: flex;
+	align-self: flex-start;
+
+}
+
+.naranja{
+	height: 38px;
+	width:120px;
+	border: 2px solid  #974c00;
+	background: #f57c00;
+	align-self: flex-start;
+
+	
+}
+
+
+.cajita2{
+	height: 170px;
+	background:	#7c4eab;
+	border: 2px solid #000066;
+	justify-content: flex-start;
+}
+
+.luisa, .maria, .vargas{
+	height: 80px;
+	width: 90px;
+	border: 2px solid #ff593c;
+	background:	#ffb061;
+	align-content: center;
+	margin:30px;
+
+}
+
+.cajita3{
+	background: #20437e;
+	border: 2px solid #000066;
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+.avila{
+	height: 30px;
+	width: 120px;
+	border:2px solid #e29e28;
+	background: #e6d021;
+	margin: 10px;
+	align-self:center;
+
+}
+
+@media screen and (max-width:600px){
+
+
+	.caja{
+		flex-direction: column;
+		height: auto;
+		width: 95%;
+
+}
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
